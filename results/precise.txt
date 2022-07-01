@@ -1,0 +1,13 @@
+Max independent set for graph size=3 & p=0.1: {1, 2, 3}
+Max independent set for graph size=3 & p=0.3: {2, 3}
+Max independent set for graph size=3 & p=0.6: {2, 3}
+Max independent set for graph size=3 & p=0.8: {1, 2}
+Max independent set for graph size=10 & p=0.1: {1, 3, 4, 6, 7, 8, 9, 10}
+Max independent set for graph size=10 & p=0.3: {1, 10, 5, 9}
+Max independent set for graph size=10 & p=0.6: {8, 9, 2, 4}
+Max independent set for graph size=10 & p=0.8: {10, 6}
+Max independent set for graph size=20 & p=0.1: {3, 4, 5, 8, 10, 11, 12, 13, 16, 18, 19}
+Max independent set for graph size=20 & p=0.3: {2, 3, 7, 10, 17, 19, 20}
+Max independent set for graph size=20 & p=0.6: {2, 10, 11, 12, 13}
+Max independent set for graph size=20 & p=0.8: {17, 12, 20}
+Elapsed 26.06 seconds
