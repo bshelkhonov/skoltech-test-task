@@ -1,9 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 data=$((tr -d '\015' | tr -s ' ' | tr ' ' '\n' | grep . | sort | uniq -c) < $1)
 data=$(sort -r -nk1 <<< "$data")
 
 iter=0
+
+mkdir -p "$2"
 
 echo "$data" | while read line
 do
